@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - MCP TikTok Server</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Politique de Confidentialité - MCP TikTok Server</h1>
+    <p class="last-updated"><strong>Dernière mise à jour</strong> : Janvier 2025</p>
+
+    <h2>Introduction</h2>
+    <p>Cette politique de confidentialité décrit comment le serveur MCP TikTok ("l'Application") traite vos données personnelles lorsque vous l'utilisez pour accéder à votre compte TikTok.</p>
+
+    <h2>Collecte de Données</h2>
+    
+    <h3>Données Collectées</h3>
+    <p>L'Application collecte et traite les données suivantes de votre compte TikTok via l'API officielle TikTok :</p>
+    <ul>
+        <li><strong>Informations de profil</strong> : Nom d'affichage, avatar, bio, statut de vérification</li>
+        <li><strong>Statistiques de compte</strong> : Nombre d'abonnés, d'abonnements, de likes, de vidéos</li>
+        <li><strong>Données de vidéos</strong> : Liste de vos vidéos, titres, descriptions, statistiques (vues, likes, commentaires, partages)</li>
+        <li><strong>Tokens d'authentification</strong> : Access tokens et refresh tokens pour l'authentification OAuth 2.0</li>
+    </ul>
+
+    <h3>Comment les Données sont Collectées</h3>
+    <p>Les données sont collectées uniquement via l'API officielle TikTok lorsque vous :</p>
+    <ol>
+        <li>Vous authentifiez avec votre compte TikTok via OAuth 2.0</li>
+        <li>Utilisez les outils MCP pour récupérer vos données</li>
+    </ol>
+
+    <h2>Stockage des Données</h2>
+    
+    <h3>Local uniquement</h3>
+    <p><strong>Toutes les données sont stockées localement sur votre ordinateur uniquement.</strong></p>
+    <ul>
+        <li>Les tokens d'authentification sont stockés dans les variables d'environnement de votre configuration MCP</li>
+        <li>Aucune donnée n'est transmise à des serveurs externes</li>
+        <li>Aucune donnée n'est stockée dans des bases de données cloud</li>
+        <li>Aucune donnée n'est partagée avec des tiers</li>
+    </ul>
+
+    <h3>Sécurité</h3>
+    <ul>
+        <li>Les tokens sont stockés de manière sécurisée dans votre configuration locale</li>
+        <li>Il est de votre responsabilité de protéger votre fichier de configuration MCP</li>
+        <li>Nous recommandons de ne jamais commiter vos tokens dans des dépôts Git publics</li>
+    </ul>
+
+    <h2>Utilisation des Données</h2>
+    <p>Les données collectées sont utilisées uniquement pour :</p>
+    <ul>
+        <li>Afficher vos informations de profil TikTok</li>
+        <li>Lister vos vidéos et leurs statistiques</li>
+        <li>Fournir des analyses de performance de vos vidéos</li>
+        <li>Permettre l'intégration avec des assistants IA compatibles MCP</li>
+    </ul>
+
+    <p><strong>Aucune donnée n'est utilisée pour</strong> :</p>
+    <ul>
+        <li>La publicité</li>
+        <li>Le marketing</li>
+        <li>La revente à des tiers</li>
+        <li>L'analyse comportementale</li>
+    </ul>
+
+    <h2>Partage des Données</h2>
+    <p><strong>Nous ne partageons aucune donnée avec des tiers.</strong></p>
+    <p>L'Application fonctionne entièrement en local et ne transmet aucune donnée à des serveurs externes, sauf pour les requêtes directes à l'API TikTok officielle nécessaires au fonctionnement de l'application.</p>
+
+    <h2>API TikTok</h2>
+    <p>Cette application utilise l'API officielle TikTok. Pour plus d'informations sur la façon dont TikTok traite vos données, consultez la <a href="https://www.tiktok.com/legal/privacy-policy" target="_blank">Politique de Confidentialité de TikTok</a>.</p>
+
+    <h2>Vos Droits</h2>
+    <p>Conformément aux réglementations sur la protection des données (RGPD, CCPA, etc.), vous avez le droit de :</p>
+    <ul>
+        <li><strong>Accéder</strong> à vos données : Vous pouvez voir toutes les données collectées via les outils MCP</li>
+        <li><strong>Supprimer</strong> vos données : Supprimez simplement les tokens de votre configuration MCP</li>
+        <li><strong>Révoquer l'accès</strong> : Révoquez l'autorisation de l'application dans les paramètres de votre compte TikTok</li>
+    </ul>
+
+    <h2>Cookies et Technologies Similaires</h2>
+    <p>Cette application n'utilise pas de cookies ou de technologies de suivi similaires.</p>
+
+    <h2>Modifications de cette Politique</h2>
+    <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les modifications seront publiées sur cette page avec une date de mise à jour.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question concernant cette politique de confidentialité, veuillez ouvrir une issue sur le <a href="https://github.com/JLeoneEpitech/TERMS_MCP" target="_blank">dépôt GitHub du projet</a>.</p>
+
+    <h2>Consentement</h2>
+    <p>En utilisant cette application, vous consentez à cette politique de confidentialité.</p>
+</body>
+</html>
